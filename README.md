@@ -1,9 +1,9 @@
-##Adjust HTTP-MD5  Tool
+## Adjust HTTP-MD5  Tool
 This CLI tool makes http requests and prints the address of the request along with the
 MD5 hash of the response.
 - The tool is able to limit the number of parallel requests, to prevent exhausting local resources.
 - The tool accepts a flag to indicate this limit, and its default is 10 if the flag is not provided.
-###Usage
+### Usage
 
 - Without `parallel` flag:
 
@@ -34,7 +34,7 @@ http://yahoo.com e2d50a30b7bfbfda097d72e32578c6a6
 http://baroquemusiclibrary.com 8e5138a0111364f08b10d37ed3371b11
 ```
 
-###Tests
+### Tests
 
 ```
 $ go test -cover

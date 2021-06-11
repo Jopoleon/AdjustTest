@@ -90,7 +90,6 @@ func startWorkers(a *Arguments) {
 			md5s, err := getMD5(url)
 			if err != nil {
 				fmt.Println(err)
-				return
 			}
 			fmt.Println(url, md5s)
 			wg.Done()
